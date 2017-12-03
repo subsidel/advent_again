@@ -1,0 +1,15 @@
+[package]
+name = "day2"
+version = "0.1.0"
+authors = ["Joel Howard <joel.howard@protonmail.com>"]
+
+[lib]
+name = "day2"
+path = "src/lib.rs"
+
+[[bin]]
+name = "day2-main"
+path = "src/bin.rs"
+
+[dependencies]
+itertools = "*"
