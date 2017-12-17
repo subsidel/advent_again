@@ -1,0 +1,12 @@
+[package]
+name = "day7"
+version = "0.1.0"
+authors = ["Joel Howard <joel.howard@protonmail.com>"]
+
+[lib]
+name = "day7"
+path = "src/lib.rs"
+
+[[bin]]
+name = "day7-main"
+path = "src/bin.rs"
